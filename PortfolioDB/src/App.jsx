@@ -36,9 +36,9 @@ export default function App() {
 
   useEffect(() => {
     const map = {
-      mono:  { sans: "'JetBrains Mono', ui-monospace, monospace",      display: "'JetBrains Mono', ui-monospace, monospace" },
-      sans:  { sans: "'Inter', ui-sans-serif, system-ui, sans-serif",  display: "'Space Grotesk', 'Inter', system-ui, sans-serif" },
-      mixed: { sans: "'Inter', ui-sans-serif, system-ui, sans-serif",  display: "'JetBrains Mono', ui-monospace, monospace" },
+      mono: { sans: "'JetBrains Mono', ui-monospace, monospace", display: "'JetBrains Mono', ui-monospace, monospace" },
+      sans: { sans: "'Inter', ui-sans-serif, system-ui, sans-serif", display: "'Space Grotesk', 'Inter', system-ui, sans-serif" },
+      mixed: { sans: "'Inter', ui-sans-serif, system-ui, sans-serif", display: "'JetBrains Mono', ui-monospace, monospace" },
     };
     const f = map[t.font] || map.mono;
     document.documentElement.style.setProperty('--font-sans', f.sans);

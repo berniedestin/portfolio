@@ -1,12 +1,12 @@
 // ── Navigation sections ───────────────────────────────────────────
 // These map to the <section id="..."> elements in App.jsx.
 export const SECTIONS = [
-  { id: 'hero',     file: 'index',     ext: 'tsx',   label: 'index.tsx' },
-  { id: 'projects', file: 'projects',  ext: 'tsx',   label: 'projects.tsx' },
-  { id: 'apps',     file: 'apps',      ext: 'swift', label: 'apps.swift' },
-  { id: 'about',    file: 'about',     ext: 'json',  label: 'about.json' },
-  { id: 'blog',     file: 'blog',      ext: 'md',    label: 'blog.md' },
-  { id: 'contact',  file: 'contact',   ext: 'sh',    label: 'contact.sh' },
+  { id: 'hero', file: 'index', ext: 'tsx', label: 'index.tsx' },
+  { id: 'projects', file: 'projects', ext: 'tsx', label: 'projects.tsx' },
+  { id: 'apps', file: 'apps', ext: 'swift', label: 'apps.swift' },
+  { id: 'about', file: 'about', ext: 'json', label: 'about.json' },
+  { id: 'blog', file: 'blog', ext: 'md', label: 'blog.md' },
+  { id: 'contact', file: 'contact', ext: 'sh', label: 'contact.sh' },
 ];
 
 // ── Projects ──────────────────────────────────────────────────────
@@ -87,35 +87,41 @@ export const APPS = [
 // ── Work timeline ─────────────────────────────────────────────────
 export const TIMELINE = [
   {
-    when: '2024 — present',
+    when: '2025 — present',
     what: 'Software Engineer',
     where: 'Independent / contract',
     detail: 'Building developer tools and full-stack apps in Rust, .NET, and Vue. Currently focused on small, performant tools that respect the user.',
   },
   {
-    when: '2022 — 2024',
-    what: 'Full-Stack Engineer',
-    where: 'Mid-size SaaS',
-    detail: 'Led modernization from legacy Blazor Server to a Vue + .NET Core split. Cut p95 page time by 62%. Mentored two juniors.',
-  },
-  {
-    when: '2020 — 2022',
+    when: '2024 — 2025',
     what: 'Software Engineer',
-    where: 'Startup',
-    detail: 'C# / .NET Core services and a React Native companion app. Shipped the first version of a payments integration that processed >$2M monthly.',
+    where: 'US Steel',
+    detail: 'Drove $100k+ in annual savings through ML and full-stack development, while spearheading infrastructure containerization and engineering governance.',
   },
   {
-    when: '2019',
-    what: 'B.S. Computer Science',
-    where: 'University',
-    detail: 'Capstone: a tiny ML-typed language compiler in Rust. Graduated with honors.',
+    when: '2023 — 2024',
+    what: 'Coding Bootcamp',
+    where: 'Tech Elevator',
+    detail: 'Full-stack bootcamp designing software systems and solutions with 800+ hours of education and application.',
+  },
+  {
+    when: '2017 — 2023',
+    what: 'EDM Programmer',
+    where: 'EDM Services',
+    detail: 'Optimized manufacturing workflows to cut programming time by 90% and designed critical tooling in collaboration with cross-functional engineering teams.',
+  },
+  {
+    when: '2013 — 2017',
+    what: 'Apprentice Tool & Die Maker',
+    where: 'EDM Services',
+    detail: 'Completed 8,000+ hours of cross-functional machining experience to become a Journeyman Tool & Die Maker, gaining deep proficiency in blueprint reading, GD&T, and tool design.',
   },
 ];
 
 // ── Blog posts ────────────────────────────────────────────────────
 export const POSTS = [
-  { date: '2026·04·02', title: 'Why I keep coming back to Rust for tools',       read: '6 min' },
-  { date: '2026·02·18', title: 'Vue 3 reactivity demystified, slowly',            read: '9 min' },
-  { date: '2025·12·10', title: 'Notes on building a card game with vanilla JS',   read: '5 min' },
-  { date: '2025·09·22', title: 'A quiet case for Blazor in 2025',                 read: '7 min' },
+  { date: '2026·04·02', title: 'Why I keep coming back to Rust for tools', read: '6 min' },
+  { date: '2026·02·18', title: 'Vue 3 reactivity demystified, slowly', read: '9 min' },
+  { date: '2025·12·10', title: 'Notes on building a card game with vanilla JS', read: '5 min' },
+  { date: '2025·09·22', title: 'A quiet case for Blazor in 2025', read: '7 min' },
 ];

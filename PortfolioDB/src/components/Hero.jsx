@@ -46,7 +46,7 @@ function HeroCodePanel() {
 }
 
 export default function Hero({ onTerminal }) {
-  const typed = useTyped(['Software Engineer', 'systems guy', 'tool builder', 'dancer'], 55, 1200);
+  const typed = useTyped(['Software Engineer', 'Process Control', 'Tool & Die', 'Dancer'], 55, 1200);
   return (
     <section id="hero" className="hero" data-screen-label="01 Hero">
       <div>
@@ -57,7 +57,7 @@ export default function Hero({ onTerminal }) {
         <h1>
           Hey, I&apos;m <span className="accent">Destin</span>.
           <br />
-          I build. <span style={{ whiteSpace: 'nowrap' }}>{typed}<span className="caret" /></span>
+          <span style={{ whiteSpace: 'nowrap' }}>{typed}<span className="caret" /></span>
         </h1>
         <p className="sub">
           <span className="cmt">{'// '}</span>
